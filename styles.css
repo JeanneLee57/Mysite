@@ -1,59 +1,150 @@
 body {
-  font-family: "Merriweather", serif;
-  background-color: white;
+    font-family: "Merriweather", serif;
+    background-color: white;
+    color: #40514E;
+  }
+
+  hr {
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 80px auto;
+  }
+  
+  .header {
+    background-color: #E4F9F5;
+    text-align: center;
+    padding-top: 100px;
+  }
+  
+  .hello {
+    padding-top: 100px;
+    text-align: center;
+  }
+  
+  .myskills {
+    padding-top: 25px;
+    margin: auto;
+  }
+  
+  .coding-skill {
+    margin: 50px auto 150px auto;
+    width: 850px;
+    line-height: 2;
+  }
+
+  .hotfood-skill {
+    width: 850px;
+    margin:  50px auto 100px auto;
+    line-height: 2;
+  }
+
+  .top-cloud {
+    position: absolute;
+    right: 350px;
+  }
+  
+  .bottom-cloud {
+    position: absolute;
+    left: 350px;
+  }
+  
+.computer {
+    height: 250px;
+    float: left;
+    margin-right: 30px;
 }
 
-.header {
-  background-color: #E4F9F5;
-  text-align: center;
-  padding-top: 100px;
+.chillies {
+    height: 250px;
+    float: right;
+    margin-left: 30px;
+  }
+
+  h1 {
+    font-family: "Sacramento";
+    font-size: 5.625rem;
+    color: #66BFBF;
+    margin-top: 2.6rem;
+  }
+  
+  .myskills h2 {
+    margin-bottom: 100px;
+  }
+
+  h2 {
+    font-family: "Montserrat", serif;
+    font-size: 2.75rem;
+    color: #66BFBF;
+    text-align: center;
+  }
+  
+  h3 {
+    color: #66BFBF;
+    padding-top: 30px;
+ }
+
+  .hello p {
+    line-height: 0.8rem;
+  }
+  
+.getintouch {
+    text-align: center;
+    margin: 50px auto;
 }
 
-.hello {
-  padding-top: 100px;
-  text-align: center;
+.lovecats {
+    text-align: center;
+    margin: 50px auto;
+    line-height: 2rem;
+    width: 500px;
+}
+  
+  .picture {
+    height: 200px;
+  }
+
+  .myButton {
+	background:linear-gradient(to bottom, #01cdd4 5%, #11999e 100%);
+	background-color:#01cdd4;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:20px;
+	padding:13px 19px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #11999e 5%, #01cdd4 100%);
+	background-color:#11999e;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
 }
 
-.myskills {
-  padding-top: 25px;
+.footer {
+    background-color: #66BFBF;
+    text-align: center;
+    padding: 50px 0 20px;
 }
 
-.top-cloud {
-  position: absolute;
-  right: 350px;
+a {
+    font-family: "Montserrat", serif;
+    color: #11999e;
+    margin: 10px 50px;
+    text-decoration: none;
 }
 
-.bottom-cloud {
-  position: absolute;
-  left: 350px;
+a:hover {
+    color: #EAF6F6
 }
 
-.mountain {
-}
-
-h1 {
-  font-family: "Sacramento";
-  font-size: 5.625rem;
-  color: #66BFBF;
-  margin-top: 2.6rem;
-}
-
-h2 {
-  font-family: "Montserrat", serif;
-  font-size: 2.75rem;
-  color: #66BFBF;
-  text-align: center;
-}
-
-.hello p {
-  line-height: 0.8rem;
-}
-
-.dots {
-  font-size: 4rem;
-  color: #EAF6F6;
-}
-
-.picture {
-  height: 300px;
+.copyright {
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    font-family: "Montserrat", serif;
+    padding: 20px 0;
 }
